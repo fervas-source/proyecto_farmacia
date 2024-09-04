@@ -1,0 +1,11 @@
+// StateGraph
+digraph {
+	A [label=vademecum_agent]
+	B [label=reviewer_agent]
+	C [label=farmacia_agent]
+	D [label=tool_node]
+	A -> B
+	B -> C
+	C -> D
+	A -> C [constraint=false]
+}
