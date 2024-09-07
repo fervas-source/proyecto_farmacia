@@ -58,6 +58,8 @@ class Medicamento_Protegido(BaseModel):
 class PharmacyResponse(BaseModel):
     pharmacy_name: str
     address: str
+    city: str
+    region: str
     opening_hours: str
     closing_hours: str
     distance: str
